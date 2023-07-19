@@ -1,0 +1,60 @@
+.dashboard-container {
+    max-width: 600px;
+    margin: 25vh auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  button {
+    flex: 0 0 45%;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .create-button {
+    background-color: #66bb6a;
+    color: white;
+  }
+  
+  .update-button {
+    background-color: #ffca28;
+    color: white;
+  }
+  
+  .delete-button {
+    background-color: #ef5350;
+    color: white;
+  }
+  
+  .view-button {
+    background-color: #42a5f5;
+    color: white;
+  }
+  
+  @media (max-width: 480px) {
+    .button-container {
+      flex-direction: column;
+    }
+  
+    button {
+      flex: 0 0 100%;
+    }
+  }
+  

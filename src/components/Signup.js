@@ -12,7 +12,7 @@ export default function Signup(props) {
     e.preventDefault();
 
     try {
-      const url = "https://cloud-book-backend-xi.vercel.app/api/auth/createuser"
+      const url = "http://localhost:5000/api/auth/createuser"
       const response = await fetch(url, {
         method: "POST",
         headers: {

@@ -20,7 +20,7 @@ export default function CreateNote(props) {
         e.preventDefault();
         
         try {
-            const url = "http://localhost:5000/api/notes/addnote"
+            const url = "https://cloud-book-backend-xi.vercel.app/api/notes/addnote"
             const response = await fetch(url, {
                 method: "POST",
                 headers: {
